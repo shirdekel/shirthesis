@@ -2,6 +2,7 @@
 
 export("%>%")
 export(add_id_column)
+export(check_numeric)
 export(get_file_path_materials)
 export(import_from_prolific_raw_data)
 importFrom(magrittr,"%>%")
