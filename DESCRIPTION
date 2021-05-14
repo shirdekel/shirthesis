@@ -28,4 +28,5 @@ Imports:
     poibin,
     forcats,
     ggplot2,
-    colorspace
+    colorspace,
+    jaysire
