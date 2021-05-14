@@ -9,5 +9,10 @@ NULL
 
 ## quiets concerns of R CMD check re: the .'s that appear in pipelines. From
 ## https://github.com/jennybc/googlesheets/blob/3c40561f92f54c451708d7fa5782161da1ed27e0/R/googlesheets.R#L15-L16.
-## Also added "presentation" for `get_trial_separate()`
-if(getRversion() >= "2.15.1")  utils::globalVariables(c(".", "presentation"))
+## Also added other definitions
+if (getRversion() >= "2.15.1") {
+    utils::globalVariables(c(
+        ".", "presentation",
+        "current_response"
+    ))
+}
