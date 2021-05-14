@@ -46,7 +46,7 @@ get_consent_html <- function(experiment_resources) {
   )
 
   consent_html %>%
-    htmltools::tags$save_html(
+    htmltools::save_html(
       file.path(
         experiment_resources,
         "consent.html"
