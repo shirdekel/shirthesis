@@ -23,4 +23,6 @@ Imports:
     magrittr,
     tibble,
     rlang,
-    stringr
+    stringr,
+    purrr,
+    poibin
