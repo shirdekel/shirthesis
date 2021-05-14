@@ -40,7 +40,7 @@ get_trial_separate <- function(preamble =
     ) %>%
     jaysire::build_timeline() %>%
     jaysire::display_if(
-      jaysire::fn_data_condition(.data$presentation == "separate")
+      jaysire::fn_data_condition(presentation == "separate")
     )
 
   return(trial_separate)
