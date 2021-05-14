@@ -25,4 +25,7 @@ Imports:
     rlang,
     stringr,
     purrr,
-    poibin
+    poibin,
+    forcats,
+    ggplot2,
+    colorspace
