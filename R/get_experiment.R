@@ -1,6 +1,5 @@
 ##' @title Generate experiment files
 ##'
-##' @param gambles Gamble values
 ##' @param experiment_directory Experiment directory
 ##'
 ##' @param experiment_resources Experiment resources file path
@@ -14,7 +13,7 @@
 ##' @return Invisibly returns NULL
 ##' @author Shir Dekel
 ##' @export
-get_experiment <- function(gambles, experiment_directory, experiment_resources,
+get_experiment <- function(experiment_directory, experiment_resources,
                            main, post_experiment, columns, condition_allocation,
                            ethics = TRUE, zip = TRUE,
                            on_finish = save_psychserver()) {

@@ -5,7 +5,6 @@
 \title{Generate experiment files}
 \usage{
 get_experiment(
-  gambles,
   experiment_directory,
   experiment_resources,
   main,
@@ -18,8 +17,6 @@ get_experiment(
 )
 }
 \arguments{
-\item{gambles}{Gamble values}
-
 \item{experiment_directory}{Experiment directory}
 
 \item{experiment_resources}{Experiment resources file path}
