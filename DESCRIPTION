@@ -30,4 +30,8 @@ Imports:
     ggplot2,
     colorspace,
     jaysire,
-    htmltools
+    htmltools,
+    jsonlite,
+    tidyselect,
+    janitor,
+    lubridate

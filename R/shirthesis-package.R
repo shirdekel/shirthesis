@@ -12,8 +12,10 @@ NULL
 ## Also added other definitions
 if (getRversion() >= "2.15.1") {
     utils::globalVariables(c(
-        ".", "presentation",
+        ".",
+        "presentation",
         "current_response",
-        "distribution"
+        "distribution",
+        "where"
     ))
 }
