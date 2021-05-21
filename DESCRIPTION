@@ -35,3 +35,5 @@ Imports:
     tidyselect,
     janitor,
     lubridate
+URL: https://github.com/shirdekel/shirthesis
+BugReports: https://github.com/shirdekel/shirthesis/issues
