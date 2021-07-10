@@ -4,9 +4,17 @@
 \name{shirthesis-package}
 \alias{shirthesis}
 \alias{shirthesis-package}
-\title{shirthesis: What the Package Does (One Line, Title Case)}
+\title{shirthesis: Thesis functions}
 \description{
-What the package does (one paragraph).
+Contains functions relevant to the thesis.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/shirdekel/shirthesis}
+  \item Report bugs at \url{https://github.com/shirdekel/shirthesis/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Shir Dekel \email{shirdekel@yahoo.com.au} (\href{https://orcid.org/0000-0003-1773-2446}{ORCID})
