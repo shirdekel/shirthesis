@@ -34,6 +34,7 @@ Imports:
     jsonlite,
     tidyselect,
     janitor,
-    lubridate
+    lubridate,
+    papaja
 URL: https://github.com/shirdekel/shirthesis
 BugReports: https://github.com/shirdekel/shirthesis/issues
