@@ -60,7 +60,12 @@ plot_choice <- function(data_effects, dv, dv_label) {
     ggplot2::theme(axis.title.y = ggplot2::element_blank())
 
   choice_plot <-
-    plot_presentation + plot_awareness + plot_distribution
+    cowplot::plot_grid(
+      plot_presentation,
+      plot_awareness + ggplot2::ylab(NULL),
+      plot_distribution + ggplot2::ylab(NULL),
+      nrow = 1
+    )
 
   return(choice_plot)
 }
