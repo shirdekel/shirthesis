@@ -35,6 +35,10 @@ Imports:
     tidyselect,
     janitor,
     lubridate,
-    papaja
+    papaja,
+    shiR (>= 0.0.0.9000),
+    patchwork
 URL: https://github.com/shirdekel/shirthesis
 BugReports: https://github.com/shirdekel/shirthesis/issues
+Remotes:  
+    shirdekel/shiR
